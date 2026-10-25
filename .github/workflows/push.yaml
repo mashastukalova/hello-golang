@@ -13,8 +13,6 @@ jobs:
       - name: Vet
         run: |
           go vet ./...
-<<<<<<< HEAD
-=======
 
   deploy:
     name: Push Docker image to Docker Hub
@@ -47,4 +45,4 @@ jobs:
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
->>>>>>> 09d8f77 (finish push.yaml)
+
