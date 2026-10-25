@@ -8,3 +8,4 @@ func main() {
 
 func hello() string {
     return "Hello Go" // эту строку исправили Go теперь не go
+}
